@@ -38,6 +38,14 @@ var calculateBalance = function(income, expenses) {
 const result = calculateBalance(5000, 1000);
 console.log(result);
 ```
+#### arrow function
+```javascript
+const calculateBalance = (income, expenses) => {
+    return income - expenses;
+}
+const result = calculateBalance(5000, 1500);
+console.log(result);
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
