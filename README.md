@@ -7,6 +7,29 @@ const balance = 5000; //can't overwrite
 const description = 'salary';
 const newTransaction = true;
 ```
+
+### data types & structures (string ,numbers ,boolean,array,object)
+```javascript
+const text = 'hello';
+const expenses = [10, [1, 2, 3, 4, 5, 6], 30];
+console.log(expenses[1][2]);
+
+//  object
+const transaction = {
+    description: 'salary',
+    amount: 5000
+}
+console.log(transaction.description);
+```
+### functions 
+#### function expression
+```javascript
+function calculateBalance(income, expenses) {
+    return income - expenses;
+}
+const result = calculateBalance(5000, 3000);
+console.log(result);
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
