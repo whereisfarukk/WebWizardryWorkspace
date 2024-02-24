@@ -1,4 +1,12 @@
 # learning_javascript
+### variables (var ,let ,const)
+```javascript
+var balance = 5000; // not used in today's
+let balance = 5000; // can be overwrite later
+const balance = 5000; //can't overwrite
+const description = 'salary';
+const newTransaction = true;
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
