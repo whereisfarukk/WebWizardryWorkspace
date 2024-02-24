@@ -22,12 +22,20 @@ const transaction = {
 console.log(transaction.description);
 ```
 ### functions 
-#### function expression
+#### function declaration
 ```javascript
 function calculateBalance(income, expenses) {
     return income - expenses;
 }
 const result = calculateBalance(5000, 3000);
+console.log(result);
+```
+#### function expression
+```javascript
+var calculateBalance = function(income, expenses) {
+    return income - expenses;
+}
+const result = calculateBalance(5000, 1000);
 console.log(result);
 ```
 ### to GET something using api
