@@ -63,6 +63,14 @@ balanceEl.addEventListener('click', () => {
     balanceEl.textContent = balance;
 })
 ```
+#### change css on click event
+```javascript
+const balanceEl = document.querySelector('.balance-number');
+
+balanceEl.addEventListener('click', () => {
+    balanceEl.style.color = 'red';
+})
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
