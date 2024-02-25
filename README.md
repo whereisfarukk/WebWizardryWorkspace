@@ -54,6 +54,18 @@ const btnE1 = document.querySelector('.my-button');
 const headingE1 = document.querySelector('.first-heading');
 headingE1.textContent = 'faruk';
 ```
+#### adding span under a class 
+```js
+const balanceEl = document.querySelector('.balance-number');
+
+balanceEl.innerHTML = '<span class = "special">Unavailable</span>';
+```
+#### without replacing previous element ,adding new span
+```js
+const balanceEl = document.querySelector('.balance-number');
+
+balanceEl.insertAdjacentHTML('afterend', '<span class = "special">Unavailable</span>');
+```
 #### change html content on click event
 ```javascript
 const balanceEl = document.querySelector('.balance-number');
