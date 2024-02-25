@@ -71,6 +71,28 @@ balanceEl.addEventListener('click', () => {
     balanceEl.style.color = 'red';
 })
 ```
+### adding css class 
+
+```css
+.balance-number--special {
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+```
+```js
+const balanceEl = document.querySelector('.balance-number');
+
+balanceEl.addEventListener('click', () => {
+    balanceEl.classList.add('balance-number--special');
+})
+```
+```html
+<span class="balance-number">4700</span>
+// after the click
+<span class="balance-number balance-number--special">4700</span>
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
