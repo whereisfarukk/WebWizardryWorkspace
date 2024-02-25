@@ -46,6 +46,23 @@ const calculateBalance = (income, expenses) => {
 const result = calculateBalance(5000, 1500);
 console.log(result);
 ```
+### interacting with HTML & CSS (DOM manipulation)
+#### change html content
+```javascript
+const btnE1 = document.querySelector('.my-button');
+
+const headingE1 = document.querySelector('.first-heading');
+headingE1.textContent = 'faruk';
+```
+#### change html content on click event
+```javascript
+const balanceEl = document.querySelector('.balance-number');
+
+balanceEl.addEventListener('click', () => {
+    const balance = 5000 - 1000;
+    balanceEl.textContent = balance;
+})
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
