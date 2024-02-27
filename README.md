@@ -105,6 +105,15 @@ balanceEl.addEventListener('click', () => {
 // after the click
 <span class="balance-number balance-number--special">4700</span>
 ```
+
+### clicking an item for deleting it  
+```js
+const transactionEl=document.querySelector('.transactions-section');
+transactionEl.addEventListener('click',function(event){
+    const clickedEl=event.target.parentNode;
+    clickedEl.remove();
+})
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
