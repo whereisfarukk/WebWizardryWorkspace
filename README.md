@@ -117,6 +117,8 @@ transactionEl.addEventListener('click',function(event){
 })
 ```
 ### adding something from form input
+<img src="https://github.com/whereisfarukk/learning_javascript/blob/main/gifs/adding.gif"
+alt="javascript">
 ```js
 formEl.addEventListener('submit',function(){
     const description = inputDescriptionEl.value;
