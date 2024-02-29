@@ -116,6 +116,23 @@ transactionEl.addEventListener('click',function(event){
     clickedEl.remove();
 })
 ```
+### adding something from form input
+```js
+formEl.addEventListener('submit',function(){
+    const description = inputDescriptionEl.value;
+    const amount = +inputAmountEl.value;
+    const transactionItemHTML = `
+        <li class="transaction transaction--${amount>0 ? "income" : "expense"}">
+            <span class="transaction__text">${description}</span>
+            <span class="transaction__amount">${amount>0? "+" :""}${amount}</span>
+            <button class="transaction__btn">X</button>
+        </li>
+    `; 
+    transactionEl.insertAdjacentHTML("beforeend",transactionItemHTML);
+})
+
+
+```
 ### to GET something using api
 ```javascript
 const btnE1 = document.querySelector('.my-button');
