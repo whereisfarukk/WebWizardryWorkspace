@@ -110,7 +110,7 @@ balanceEl.addEventListener('click', () => {
 <img src="https://github.com/whereisfarukk/learning_javascript/blob/main/gifs/delet_item.gif"
 alt="javascript">
 ```js
-const transactionEl=document.querySelector('.transactions-section'); // select the parent element class
+const transactionEl=document.querySelector('.transactions'); // select the parent element class
 transactionEl.addEventListener('click',function(event){
     const clickedEl=event.target.parentNode;
     clickedEl.remove();
