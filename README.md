@@ -156,3 +156,5 @@ const clickhandler = async () => {
 }
 btnE1.addEventListener('click', clickhandler);
 ```
+### learniing api watch it
+$\textrm{\large Small project using API }$ [Youtube Video](https://www.youtube.com/watch?v=37vxWr0WgQk)
