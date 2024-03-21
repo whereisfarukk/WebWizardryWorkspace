@@ -1,4 +1,7 @@
 # Learning CSS
+
+## CSS Grid
+![alt text](https://github.com/whereisfarukk/learning_javascript/blob/main/images/css_grid.png)
 ```HTML
 <div class="container">
      <div class="st">1st</div>
