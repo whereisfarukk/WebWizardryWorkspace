@@ -32,6 +32,35 @@
     background-color: blue;
 }
 ```
+## CSS FlexBox
+```Html
+<div class="container">
+	<div class="st">1st</div>
+	<div class="nd">2nd</div>
+	<div class="rd">3rd</div>
+</div>
+```
+```css
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+
+}
+.st{
+    background-color: aqua;
+    flex: 1;
+}
+.nd{
+    background-color: red;
+    width: 200px;
+}
+.rd{
+    background-color: blue;
+    flex: 2;
+
+}
+```
 # learning javascript
 ### variables (var ,let ,const)
 ```javascript
