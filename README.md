@@ -1,4 +1,35 @@
-# learning_javascript
+# Learning CSS
+```HTML
+<div class="container">
+     <div class="st">1st</div>
+     <div class="nd">2nd</div>
+     <div class="rd">3rd</div>
+			
+     <div class="st">1st</div>
+     <div class="nd">2nd</div>
+     <div class="rd">3rd</div>
+</div> 
+```
+```CSS
+.container{
+    display: grid;
+    grid-template-columns: 100px 2fr 5fr;
+    height: 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.st{
+    background-color: aqua;
+}
+.nd{
+    background-color: red;
+}
+.rd{
+    background-color: blue;
+}
+```
+# learning javascript
 ### variables (var ,let ,const)
 ```javascript
 var balance = 5000; // not used in today's
