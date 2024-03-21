@@ -63,8 +63,8 @@
 
 }
 ```
-$\textrm{\large The main difference between Grid and Flexbox is that ,In Grid ,we have to declare column  number and size in the parent div,}$
-$\textrm{\large but in the flexbox ,we have the freedom to declare the column size in the child div.} $
+$\textrm{\large The main difference between Grid and Flexbox is that ,In Grid ,we have to declare column  number }$
+$\textrm{\large and size in the parent div, but in the flexbox ,we have the freedom to declare the column size in the child div.} $
 # learning javascript
 ### variables (var ,let ,const)
 ```javascript
