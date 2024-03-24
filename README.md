@@ -48,6 +48,8 @@
     flex-direction: row;
     height: 50px;
 
+    justify-content: space-between; //This distribute the items in uniform way 
+    align-items: center;  //this align items vertically center
 }
 .st{
     background-color: aqua;
