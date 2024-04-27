@@ -32,6 +32,8 @@
     background-color: blue;
 }
 ```
+![alt text](https://github.com/whereisfarukk/learning_javascript/blob/main/images/grid_cheetsheet.png)
+
 ## CSS FlexBox
 ![alt text](https://github.com/whereisfarukk/learning_javascript/blob/main/images/CSS_Flexbox.png)
 
