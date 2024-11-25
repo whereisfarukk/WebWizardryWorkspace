@@ -229,3 +229,30 @@ btnE1.addEventListener('click', clickhandler);
 ```
 ### learniing api watch it
 $\textrm{\large Small project using API }$ [Youtube Video](https://www.youtube.com/watch?v=37vxWr0WgQk)
+
+
+
+# NodeJs
+## MiddleWare
+```javascript
+const express = require("express");
+const morgan = require("morgan");
+const app = express();
+const PORT = process.env.PORT || 8080;
+
+const customMiddleware = (req, res, next) => {
+  console.log("I am middle ware");
+  next();
+};
+
+
+app.use(customMiddleware);
+app.get("/", morgan("dev"), (req, res) => {
+  res.send("I am sending data");
+});
+
+
+app.listen(PORT, () => {
+  console.log(`app is running on port ${PORT}`);
+});
+```
