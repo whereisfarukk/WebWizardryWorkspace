@@ -256,3 +256,34 @@ app.listen(PORT, () => {
   console.log(`app is running on port ${PORT}`);
 });
 ```
+
+## Routing
+```javascript
+const express = require("express");
+const morgan = require("morgan");
+const app = express();
+const PORT = process.env.PORT || 8080;
+
+// ---------------------------------------
+const router = express.Router();
+
+router.get("/login", (req, res) => {
+  res.send("I am inside login page");
+});
+router.get("/logout", (req, res) => {
+  res.send("I am inside logout page");
+});
+router.get("/signup", (req, res) => {
+  res.send("I am inside signup page");
+});
+app.use("/user", router);
+// -------------This portion is the routing
+
+app.get("/", (req, res) => {
+  res.send("I am sending data");
+});
+
+app.listen(PORT, () => {
+  console.log(`app is running on port ${PORT}`);
+});
+```
