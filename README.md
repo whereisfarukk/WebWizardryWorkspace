@@ -264,7 +264,7 @@ const morgan = require("morgan");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// ---------------------------------------
+// ------------------------user Route start
 const router = express.Router();
 
 router.get("/login", (req, res) => {
@@ -276,8 +276,8 @@ router.get("/logout", (req, res) => {
 router.get("/signup", (req, res) => {
   res.send("I am inside signup page");
 });
+// -------------------------user route ends
 app.use("/user", router);
-// -------------This portion is the routing
 
 app.get("/", (req, res) => {
   res.send("I am sending data");
